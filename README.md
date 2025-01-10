@@ -1,13 +1,11 @@
 # Scribe
 
-Scribe is a Progressive Web App (PWA) designed to make note-taking simple and effective. Progressive Web Apps (PWAs) were created to combine the best features of native apps with the open nature of the web. With Scribe, you can jot down your ideas, organize your thoughts, and export your notes as PDFs. Comments are added throughout the code to help developers better understand the implementation and functionality.
+Scribe is a Progressive Web App (PWA) designed to make note-taking simple and effective. Progressive Web Apps (PWAs) were created to combine the best features of native apps with the open nature of the web. With Scribe, you can jot down your ideas, organize your thoughts, and export your notes as PDFs. It's built for productivity and designed for ease of use. Comments are added in the codebase to help you better understand the implementation.
 
 ---
 
 ## Table of Contents
 - [Features](#features)
-- [Installation](#installation)
-- [How to Set Up the Project Locally](#how-to-set-up-the-project-locally)
 - [How to Install the App Using Chrome](#how-to-install-the-app-using-chrome)
 - [Documentation](#documentation)
 - [Project Structure](#project-structure)
@@ -20,28 +18,7 @@ Scribe is a Progressive Web App (PWA) designed to make note-taking simple and ef
 - Export notes as PDF files.
 - Fully offline functionality as a PWA.
 - Simple and clean user interface.
-
----
-
-## Installation
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/scribe.git
-   cd scribe
-   ```
-
-2. **Open in Your Preferred Code Editor:**
-   Open the project folder in any code editor (e.g., VS Code).
-
-3. **Run the Application Locally:**
-   Install `serve` using NPX and start a local server:
-   ```bash
-   npx serve
-   ```
-   This will serve the app locally. Open the provided URL in your browser.
-
-4. **Avoid OSPRS Error:**
-   Ensure you are running the app locally via `npx serve` to avoid errors related to offline service worker registration (OSPRS).
+-  Use it like a native app on mobile or desktop.
 
 ---
 
@@ -56,13 +33,18 @@ Scribe is a Progressive Web App (PWA) designed to make note-taking simple and ef
 2. **Open the Project in Your Code Editor:**
    Open the project folder in VS Code or your preferred editor.
 
-3. **Run the App Locally:**
+3. **Navigate to the `main` Directory:**
+   ```bash
+   cd main
+   ```
+
+4. **Run the App Locally:**
    Use `npx serve` to serve the app:
    ```bash
    npx serve
    ```
 
-4. **Open in Browser:**
+5. **Open in Browser:**
    Copy the link provided by `serve` (e.g., `http://localhost:5000`) and paste it into your browser.
 
 ---
@@ -70,12 +52,24 @@ Scribe is a Progressive Web App (PWA) designed to make note-taking simple and ef
 ## How to Install the App Using Chrome
 
 1. **Open the PWA in Chrome:**
+   - After setting Up project locally.
+   - locate to main directory using `cd main`.
    - Run the PWA locally using `npx serve`.
-   - Open the provided URL (e.g., `http://localhost:5000`) in Google Chrome.
+   - Open the provided URL in Google Chrome.
+
+
+
+https://github.com/user-attachments/assets/e7e43047-fcbd-4c6f-bc7b-fc810fb3366d
+
+
 
 2. **Look for the Install Icon:**
    - In the Chrome address bar, you’ll see a small **Install** icon (a computer with a download arrow) on the right side.
    - If the icon isn’t visible, click the three-dot menu (⁝) in the top-right corner, and look for the option **Install Scribe**.
+
+
+https://github.com/user-attachments/assets/b718ab0f-c3f4-458a-97e5-0596488c8ff8
+
 
 3. **Click on the Install Button:**
    - Click the **Install** button to initiate the installation process.
@@ -84,17 +78,10 @@ Scribe is a Progressive Web App (PWA) designed to make note-taking simple and ef
    - Once installed, the PWA will open in a standalone window like a native desktop app.
    - A shortcut will be added to your desktop or start menu.
 
----
+5. **Enjoy Easy Access:**
+   - The Scribe icon will now be added to your device for quick access.
 
-## Documentation
-- **Note Management:**
-  - Create a new note by entering a title and content.
-  - Save the note for future reference.
-  - Export notes as PDFs with the export button.
-
-- **PWA Features:**
-  - Install Scribe on your device for offline usage.
-  - Use it like a native app on mobile or desktop.
+Note: Google Chrome browser is preferred to download this PWA.
 
 ---
 
