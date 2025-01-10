@@ -1,4 +1,4 @@
-# Scribe
+## Scribe
 
 
 Scribe is a Progressive Web App (PWA) designed to streamline note-taking and enhance productivity. Combining the convenience of a web app with the functionality of native apps, Scribe allows users to create, edit, and save notes effortlessly. With the ability to export notes as PDFs and offline accessibility, Scribe ensures your ideas are always within reach, whether you’re online or offline.
