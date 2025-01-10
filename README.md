@@ -1,7 +1,7 @@
-## Scribe
+# Scribe
 
+Scribe is a Progressive Web App (PWA) designed to make note-taking simple and effective. Progressive Web Apps (PWAs) were created to combine the best features of native apps with the open nature of the web. With Scribe, you can jot down your ideas, organize your thoughts, and export your notes as PDFs. Comments are added throughout the code to help developers better understand the implementation and functionality.
 
-Scribe is a Progressive Web App (PWA) designed to streamline note-taking and enhance productivity. Combining the convenience of a web app with the functionality of native apps, Scribe allows users to create, edit, and save notes effortlessly. With the ability to export notes as PDFs and offline accessibility, Scribe ensures your ideas are always within reach, whether you’re online or offline.
 ---
 
 ## Table of Contents
@@ -9,7 +9,9 @@ Scribe is a Progressive Web App (PWA) designed to streamline note-taking and enh
 - [Installation](#installation)
 - [How to Set Up the Project Locally](#how-to-set-up-the-project-locally)
 - [How to Install the App Using Chrome](#how-to-install-the-app-using-chrome)
+- [Documentation](#documentation)
 - [Project Structure](#project-structure)
+- [Languages & Tools Used](#languages--tools-used)
 
 ---
 
@@ -21,7 +23,7 @@ Scribe is a Progressive Web App (PWA) designed to streamline note-taking and enh
 
 ---
 
-## Installation of PWA using chrome 
+## Installation
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/scribe.git
@@ -38,7 +40,7 @@ Scribe is a Progressive Web App (PWA) designed to streamline note-taking and enh
    ```
    This will serve the app locally. Open the provided URL in your browser.
 
- **Note:**
+4. **Avoid OSPRS Error:**
    Ensure you are running the app locally via `npx serve` to avoid errors related to offline service worker registration (OSPRS).
 
 ---
@@ -84,6 +86,16 @@ Scribe is a Progressive Web App (PWA) designed to streamline note-taking and enh
 
 ---
 
+## Documentation
+- **Note Management:**
+  - Create a new note by entering a title and content.
+  - Save the note for future reference.
+  - Export notes as PDFs with the export button.
+
+- **PWA Features:**
+  - Install Scribe on your device for offline usage.
+  - Use it like a native app on mobile or desktop.
+
 ---
 
 ## Project Structure
@@ -101,3 +113,18 @@ Scribe/
 │   ├── input.css              # Input CSS for Tailwind
 │   └── tailwind.config.js     # Tailwind CSS configuration
 ```
+
+---
+
+## Languages & Tools Used
+- **HTML5**: Structuring the app content.
+- **CSS3**: Styling the user interface.
+- **JavaScript (ES6)**: Core functionality and interactivity.
+- **Tailwind CSS**: For utility-first styling.
+- **html2pdf.js**: For generating PDF files from notes.
+- **LocalStorage**: For saving user data locally.
+- **Workbox**: For enabling PWA features.
+
+---
+
+Feel free to contribute, report issues, or suggest enhancements!
