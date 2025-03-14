@@ -799,3 +799,7 @@ video {
     flex-direction: row;
   }
 }
+
+.text-custom-color {
+    color: #4b5563;
+}
